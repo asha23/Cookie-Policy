@@ -1,14 +1,14 @@
 <?php
 /**
- * @package Hello_Dolly
- * @version 1.6
+ * @package Reddico Cookie Plugin
+ * @version 1.1.3
  */
 /*
 Plugin Name: Reddico Cookie Compliancy
 Plugin URI: http://reddico.co.uk/resources
 Description: Bring your site up to date with GDPR compliancy legistlation with our cookie policy plugin.
 Author: Reddico
-Version: 1.1
+Version: 1.1.3
 Author URI: http://reddico.co.uk
 */
 
@@ -175,7 +175,7 @@ class cookiePlugin {
       </div><!-- end wrap -->
       <?php }
     
-    function load_cookie_admin_style($hook) {
+     static function load_cookie_admin_style($hook) {
         if($hook != 'tools_page_reddico-cookie-options') {
             return;
         }
