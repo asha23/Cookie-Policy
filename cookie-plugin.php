@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Reddico Cookie Plugin
- * @version 1.1.3
+ * @version 1.2.1
  */
 /*
 Plugin Name: Reddico Cookie Compliancy
 Plugin URI: http://reddico.co.uk/resources
 Description: Bring your site up to date with GDPR compliancy legistlation with our cookie policy plugin.
 Author: Reddico
-Version: 1.1.3
+Version: 1.2.1
 Author URI: http://reddico.co.uk
 */
 
