@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?39629498');
+  src: url('../fonts/fontello.eot?39629498#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?39629498') format('woff'),
+       url('../fonts/fontello.ttf?39629498') format('truetype'),
+       url('../fonts/fontello.svg?39629498#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.trans{-webkit-transition: all 0.6s;-moz-transition: all 0.6s;}
+.rdco-icon{
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em; /* remove if not needed */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cookie_container{position:fixed;z-index:99999;padding: 10px;display: inline-block;}
+.cookie_container.top{top: 0px;}
+.cookie_container.bottom{bottom:0px;}
+.cookie_container.left{left:0px;}
+.cookie_container.right{right: 0px;}
+
+.rdco.cookie_bar{color:#fff;margin:0;padding:0;background:rgba(0,0,0,.9);border-radius:2px;max-width:460px;font-size:0.9em;line-height: 1.4;}
+.rdco.cookie_bar h1,.rdco.cookie_bar h2,.rdco.cookie_bar h3,.rdco.cookie_bar h4,.rdco.cookie_bar h5,.rdco.cookie_bar h6{color:#fff;display:block;}
+.rdco.cookie_bar h6{padding-top: 20px;}
+.rdco.cookie_bar .cookie_content{position:relative;padding:30px;}
+.rdco.cookie_bar p{font-size:0.9em;}
+.rdco.cookie_bar p a{color:#4eb4a6;text-decoration:underline;}
+.rdco.cookie_bar p a:hover{font-weight:600;}
+.rdco.cookie_bar p.large{font-size:1.1em;}
+.rdco.cookie_bar p.small{font-size:0.8em;}
+.rdco.cookie_bar ul{padding-left:15px;font-size:0.9em;}
+.rdco.cookie_bar ul li{}
+.rdco.cookie_bar ul li + li{margin-top:5px;}
+.rdco.cookie_bar hr{background-color:rgba(255,255,255,0.4);}
+.rdco.cookie_bar a.rdco_btn{display:inline-block;border:1px solid #fff;outline:none;color:#fff;border-radius:2px;padding:5px 10px;position:relative;font-size:0.9em;cursor:pointer;}
+.rdco.cookie_bar a.rdco_btn:hover{border-color: #4eb4a6;color: #4eb4a6;text-decoration: none;}
+.rdco.cookie_bar a.rdco_btn.right{float:right;}
+.rdco.cookie_bar a.rdco_btn.primary{background:#fff;color:#000;}
+.rdco.cookie_bar a.rdco_btn.primary:hover{background:#4eb4a6;color:#fff;}
+.rdco.cookie_bar a.close_btn{position: absolute;top: 20px;right: 30px;color: #fff;cursor: pointer;opacity: 0.6;}
+.rdco.cookie_bar a.close_btn:hover{opacity: 1;}
+.rdco.cookie_bar a.close_btn > img{width: 14px;height: 14px;}
+
+.rdco.cookie_prefs{display: none;}
+
+a.cookie_toggle{padding:15px;display:inline-block;color:#fff;background:rgba(0,0,0,.8);border-radius:2px;cursor: pointer;}
+a.cookie_toggle span{line-height:32px;vertical-align:top;display:inline-block;margin-left:10px;font-size:80%;display: none;}
+a.cookie_toggle object{vertical-align:top;display:inline-block;margin: 0;pointer-events: none;}
+a.cookie_toggle object svg{}
+a.cookie_toggle:hover{color: #fff;background: #4eb4a6;}
+
+@media (min-width: 576px) {
+    .cookie_container{padding: 20px;}
+}
+@media (min-width: 768px) {
+    .cookie_container{padding: 30px;}
+}
